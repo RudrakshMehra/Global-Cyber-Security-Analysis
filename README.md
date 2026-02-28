@@ -1,57 +1,87 @@
-# Global Cyber Security Analysis
+# 🌍 Global Cyber Security Analysis
 
-## Project Overview
+##  Project Overview
 
-1. This project performs exploratory data analysis on global cybersecurity indices to evaluate cybersecurity readiness and digital development across countries.
+This project performs **Exploratory Data Analysis (EDA)** on global cybersecurity indices to evaluate cybersecurity readiness and digital development across countries.
 
-2. The analysis compares:
+The analysis compares:
 
-       Global Cybersecurity Index (GCI)
+- **Global Cybersecurity Index (GCI)**
+- **Cybersecurity Effectiveness Index (CEI)**
+- **National Cybersecurity Index (NSCI)**
+- **Digital Development Level (DDL)**
 
-       Cybersecurity Effectiveness Index (CEI)
+---
 
-       National Cybersecurity Index (NSCI)
+##  Tools Used
 
-       Digital Development Level (DDL)
+- **Python** (Pandas, NumPy)
+- **Jupyter Notebook**
+- **Tableau**
+- **Dataset Source:** Kaggle
 
-## Tools Used
+---
 
-    Python (Pandas, NumPy)
+##  Key Visualizations
 
-    Jupyter Notebook
+- Country-level filled map  
+- Comparative bar charts (GCI, CEI, NSCI)  
+- Scatter plot (DDL vs CEI)  
+- Correlation heatmap  
+- Summary comparison table  
 
-    Tableau
+---
 
-    Dataset Source: Kaggle
+## Dashboard Preview
 
-## Key Visualizations
+### Full Dashboard
+![Full Dashboard](Screenshots/01%20Full%20Dashboard.png)
 
-     Country-level filled map
+### GCI Country Map
+![GCI Map](Screenshots/02%20GCI%20Map.png)
 
-     Comparative bar charts (GCI, CEI, NSCI)
+### DDL vs CEI Scatter Plot
+![Scatter Plot](Screenshots/06%20Scatter%20DDL%20vs%20CEI.png)
 
-     Scatter plot (DDL vs CEI)
+### Correlation Heatmap
+![Correlation Heatmap](Screenshots/05%20Correlation%20Heatmap.png)
 
-     Correlation heatmap
-
-     Summary comparison table
-
+---
 ## Key Insights
 
-    Countries with higher digital development tend to show stronger cybersecurity readiness.
+- Countries with higher **Digital Development Level (DDL)** tend to show stronger cybersecurity readiness.
+- Significant regional disparities exist.
+- High digital maturity does not always guarantee strong cybersecurity implementation.
+- Policy alignment is critical for improving national cyber readiness.
 
-    Significant regional disparities exist.
+---
 
-    High digital maturity does not always guarantee strong cybersecurity implementation.
-
-    Policy alignment is critical for improving national cyber readiness.
-
-##  Project Structure
-    data/
-    notebooks/
-    tableau/
-    reports/
-    screenshots/
+## 📁 Project Structure
+       Global-Cyber-Security-Analysis/
+       │
+       ├── data/
+       │   └── cybersecurity_indices.csv
+       │
+       ├── notebooks/
+       │   └── data_analysis.ipynb
+       │
+       ├── tableau/
+       │   ├── cybersecurity_dashboard.twb
+       │   └── datasource.xml
+       │
+       ├── reports/
+       │   └── project_report.pdf
+       │
+       ├── screenshots/
+       │   ├── 01_full_dashboard.png
+       │   ├── 02_gci_map.png
+       │   ├── 03_cei_comparison.png
+       │   ├── 04_nsci_analysis.png
+       │   ├── 05_correlation_heatmap.png
+       │   ├── 06_scatter_ddl_vs_cei.png
+       │   └── 07_summary_table.png
+       │
+       └── README.md
 
 ## Author
-    Rudraksh Mehra
+**Rudraksh Mehra**
