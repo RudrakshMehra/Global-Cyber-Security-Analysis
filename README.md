@@ -1,4 +1,4 @@
-# 🌍 Global Cyber Security Analysis
+#  Global Cyber Security Analysis
 
 ##  Project Overview
 
@@ -56,7 +56,7 @@ The analysis compares:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
        Global-Cyber-Security-Analysis/
        │
        ├── data/
